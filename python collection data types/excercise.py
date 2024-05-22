@@ -22,6 +22,7 @@ print(numbers)
 numbers.reverse()
 print(numbers)
 
+
 # pasar buah
 def display_menu():
     print("Selamat datang di pasar buah")
