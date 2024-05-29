@@ -21,6 +21,6 @@ print("Max:", maxValue)
 
 print(numbers)
 numbers.sort()
-print(numbers)
+print(numbers, 'ascending')
 numbers.reverse()
-print(numbers)
+print(numbers, 'descending')
