@@ -3,7 +3,7 @@ listContoh = ["hello", 1, 2, 3, True]
 
 # access data list
 print(listContoh)
-print('This is a access data list')
+print("This is a access data list")
 print(listContoh[0])
 print(listContoh[1])
 print(listContoh[2])
@@ -11,7 +11,7 @@ print(listContoh[3])
 print(listContoh[4])
 
 # negative list syntax
-print('This is a negative list')
+print("This is a negative list")
 print(listContoh[-1])
 print(listContoh[-2])
 print(listContoh[-3])
@@ -19,7 +19,7 @@ print(listContoh[-4])
 print(listContoh[-5])
 
 # range of indexes
-print('This is a list range of indexes')
+print("This is a list range of indexes")
 print(listContoh[1:3])
 print(listContoh[1:])
 print(listContoh[:3])
@@ -30,19 +30,19 @@ print(listContoh[-5:2])
 print(listContoh[0:-2])
 
 # change data
-print('change data of a list')
+print("change data of a list")
 listContoh[0] = "hi"
 listContoh[-1] = False
 print(listContoh)
 
 # add data
-print('add data of a list')
+print("add data of a list")
 listContoh.append("python")
 listContoh.insert(1, "mari belajar python")
 print(listContoh)
 
 # delete data
-print('delete data of a list')
+print("delete data of a list")
 del listContoh[0]
 listContoh.remove("mari belajar python")
 listContoh.pop()  # remove last element
@@ -50,13 +50,13 @@ listContoh.pop()  # remove last element
 print(listContoh)
 
 # loop trough a list
-print('loop through a list')
+print("loop through a list")
 newListDataItems = ["hello", 1, 2, 3, True]
 for i in newListDataItems:
     print(i)
 
 # check if list contains
-print('check if list contains')
+print("check if list contains")
 newDataList = ["hello", False]
 if "hello" in newDataList:
     print("hello is in list")
@@ -64,12 +64,12 @@ else:
     print("hello is not in list")
 
 # length of list
-print('length of list')
+print("length of list")
 lengthList = [1, 2, 3, "mari belajar python", True]
 print(len(lengthList))
 
 # copy list
-print('copy list')
+print("copy list")
 listCopy = ["kita", "akan", "mencoba", "copy", "list", "ini"]
 print(listCopy)
 
@@ -83,7 +83,7 @@ print(newList)
 print(newList1)
 
 # concat list
-print('concat list')
+print("concat list")
 listConcat = ["sekarang", "kita", "akan", "menggabungkan", "suatu", "list"]
 print(listConcat)
 
@@ -97,7 +97,7 @@ gabungkanList.extend(addedList)  # extend adalah gabungkan list dari paling bela
 print(gabungkanList)
 
 # find index
-print('find index')
+print("find index")
 nameList = ["chika", "adam", "fajar", "ibu rina", "bapak ikmal"]
 findIndex = nameList.index("ibu rina")
 print(findIndex)
@@ -106,14 +106,14 @@ print(findIndex)
 # print(findIndex1) # error tidak menemukan yang namanya nisa
 
 # sort list / masih menggunakan nameList
-print('sort list')
+print("sort list")
 nameList.sort()  # menyesuaikan dengan abjad ascending
 print(nameList)
 nameList.reverse()  # kebalikannya descending
 print(nameList)
 
 # 2d list
-print('2d list')
+print("2d list")
 listTwoDimension = [
     ["laptop", "mobile", "pc"],
     ["bersepeda", "jalan", "makan"],
