@@ -1,28 +1,3 @@
-# find min and max values numbers
-numbers = [41, 5, 1, 3, 89, 32]
-
-min = numbers[0]
-max = numbers[0]
-print(min, max)
-
-for number in numbers:
-    if number < min:
-        min = number
-
-print(min)
-
-for number in numbers:
-    if number > max:
-        max = number
-
-print(max)
-
-numbers.sort()
-print(numbers)
-numbers.reverse()
-print(numbers)
-
-
 # pasar buah
 def display_menu():
     print("Selamat datang di pasar buah")
